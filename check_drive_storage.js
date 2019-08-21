@@ -1,7 +1,6 @@
 /* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * To check Drive storage and send mail when limit exceeds 90 percent.
+ * Output: System will send a mail to user that Google drive limit is exceeded.
  */
 
 

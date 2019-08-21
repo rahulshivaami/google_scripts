@@ -1,7 +1,6 @@
 /* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * To get CC and BCC list out of the the domain.
+ * Output : It will display CC and BCC list from each mail if receiver is outside of domain.
  */
 
 

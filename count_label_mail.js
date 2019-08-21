@@ -1,7 +1,6 @@
 /* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * To count email in particular label.
+ * Output: It will display number of emails in the label.
  */
 
 
@@ -22,15 +21,7 @@ function CountEmail()  //function start
   }
 }; //function end
 
- /* Core code found */
-  /*  
-  var label = GmailApp.getUserLabelByName("LabelName");
-  var labelname = label.getName();
-  var mails = label.getThreads();
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
-  var date = new Date();
-  sheet.appendRow([labelname,date,mails.length]);
-  */
+//This function will add new menu in menu header bar.
 function onOpen ()
 {
   var sheet = SpreadsheetApp.getActiveSpreadsheet ();

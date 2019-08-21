@@ -1,7 +1,6 @@
 /* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * To get contact list from gmail account.
+ * Output : It will display Contact name, email & phone on the sheet.
  */
 
 function get_contact(){
