@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+Google script folder contains different script which help users to perform bulk operation on the account 
+-->
+<html>
+    <head>
+        <title>Script List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .center-align{
+                text-align:center;
+            }
+            table td{
+                padding:5px;
+            }
+        </style>
+    </head>
+    <body style="background-color: #ccc;">
+        <h1>List of the scripts</h1>
+        <table border="3" width="100%">
+            <tr>
+                <th width="20%">
+                    Name
+                </th>
+                <th width="60%">
+                    Description
+                </th>
+                <th width="20%">
+                    Link
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Calendar Cleanup Script
+                </td>
+                <td>
+                    This script delete events from the calendar. User has to enter start date(yyyy-mm-dd), end date(yyyy-mm-dd) & name(name of the calendar from where user want to delete events. If user want to delete events from default calendar then user can keep name section empty.
+                </td>
+                <td class="center-align">
+                    <a href="calender_cleanup.js">Click here</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Check drive storage
+                </td>
+                <td>
+                    This script checks the storage limit of the drive and also checks space utilised. If utilisation have exceeded 90% then it will send mail to user. User can modify mail receivers address as well as mail content.
+                </td>
+                <td class="center-align">
+                    <a href="check_drive_storage.js">Click here</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Count label mail
+                </td>
+                <td>
+                    This script counts mail inside label. It will print label name with mail count on google sheet.
+                </td>
+                <td class="center-align">
+                    <a href="count_label_mail.js">Click here</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Get Google Contacts
+                </td>
+                <td>
+                    This script get contact from google account. It fetches name, email, contact no and print on google sheet
+                </td>
+                <td class="center-align">
+                    <a href="get_google_contacts.js">Click here</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Get CC and BCC mail
+                </td>
+                <td>
+                    This script get CC and BCC mail when recepient is outside the domain. It will fetch list and print on google sheet.
+                </td>
+                <td class="center-align">
+                    <a href="get_mail_cc_bcc.js">Click here</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Get tree structure
+                </td>
+                <td>
+                    This script get the tree structure of the folders and prints on google sheet.
+                </td>
+                <td class="center-align">
+                    <a href="get_tree_structure.js">Click here</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Get user list
+                </td>
+                <td>
+                    This script fetch user list for admin and print on google list.
+                </td>
+                <td class="center-align">
+                    <a href="get_user_list.js">Click here</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Delete mail
+                </td>
+                <td>
+                    This script deletes mail for last 7 days.
+                </td>
+                <td class="center-align">
+                    <a href="mail_delete.js">Click here</a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
