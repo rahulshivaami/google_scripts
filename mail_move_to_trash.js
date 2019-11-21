@@ -1,6 +1,6 @@
 /* 
  * To move mail to trash
- * Output : It will move days of last 7 days in trash.
+ * Output : It will move mail before 7 days in trash.
  */
 
 
