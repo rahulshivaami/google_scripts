@@ -15,10 +15,10 @@ function makeCopy() {
     var name = SpreadsheetApp.getActiveSpreadsheet().getName() + " Copy " + formattedDate;
 
 // gets the destination folder by their ID. REPLACE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx with your folder's ID that you can get by opening the folder in Google Drive and checking the URL in the browser's address bar
-    var destination = DriveApp.getFolderById("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+    var destination = DriveApp.getFolderById(folder_id);
 
 // gets the current Google Sheet file
-    var file = DriveApp.getFileById(SpreadsheetApp.getActiveSpreadsheet().getId())
+    var file = DriveApp.getFileById(file_id)
 
 // makes copy of "file" with "name" at the "destination"
     file.makeCopy(name, destination);
