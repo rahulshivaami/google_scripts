@@ -19,7 +19,7 @@ function removeMyTest() {
       q: 'before:' + start_date,
       pageToken: pageToken
     });
-    Logger.log(threadList.threads.length);
+    //Logger.log(threadList.threads.length);
     if (threadList.threads && threadList.threads.length > 0) {
       threadList.threads.forEach(function(thread) {
         Logger.log('id: %s snippet: %s', thread.id, thread.snippet);
